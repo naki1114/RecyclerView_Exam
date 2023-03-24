@@ -12,7 +12,7 @@ class ViewHolder extends RecyclerView.ViewHolder{
     public TextView textView;
     public Button button;
 
-    ViewHoler(Context context, View itemView) {
+    ViewHolder(Context context, View itemView) {
         super(itemView);
 
         textView = itemView.findViewById(R.id.textViewExam);
